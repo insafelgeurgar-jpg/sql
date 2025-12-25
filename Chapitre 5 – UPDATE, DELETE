@@ -1,0 +1,10 @@
+UPDATE Utilisateur
+SET email = 'nouveau@mail.com'
+WHERE id = 1;
+DELETE FROM Article
+WHERE id = 3;
+UPDATE Utilisateur
+SET nom = 'Alice Dupont', email = 'alice.dupont@test.com'
+WHERE id = 1;
+SELECT * FROM Utilisateur;
+SELECT * FROM Article;
